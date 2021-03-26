@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <remote  name="aosp" fetch="https://android.googlesource.com/" />
+  <remote  name="aiot" fetch="ssh://git@gitlab.com/mediatek/aiot/" />
   <default revision="master" remote="aosp" sync-j="4" />
 
   <superproject name="kernel/superproject" remote="aosp"/>
 
   <project path="build" name="kernel/build" />
-  <project path="common" name="kernel/common" revision="android11-5.4" />
   <project path="kernel/common-patches" name="kernel/common-patches" >
       <linkfile src="android-5.4" dest="common/patches" />
   </project>
@@ -20,4 +20,11 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+
+  <!-- mediatek kernel -->
+  <project path="src" name="bsp/linux" remote="aiot" revision="mtk-android11-5.4" groups="mediatek" />
+
+  <!-- restricted projects that require NDA -->
+  <project path="mt7668-wifi-mod" name="nda/mt7668-wifi-drv" remote="aiot" revision="main" groups="mediatek" />
+
 </manifest>
