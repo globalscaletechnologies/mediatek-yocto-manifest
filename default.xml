@@ -49,4 +49,8 @@
         <linkfile src="lib3/yaml" dest="vendor/mediatek/tools/mbr/yaml" />
     </project>
     <project path="external/tinyhal" name="CirrusLogic/tinyhal.git" remote="github" revision="master" groups="mediatek" />
+
+    <!-- restricted projects that require NDA -->
+    <project path="vendor/mediatek/wireless-restricted" name="nda/wireless-firmware" remote="aiot" revision="main" groups="mediatek" />
+
 </manifest>
