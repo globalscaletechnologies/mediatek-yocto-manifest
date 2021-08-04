@@ -23,10 +23,6 @@
     <project path="vendor/mediatek/build" name="rita/vendor/mediatek/build" remote="aiot" revision="mtk-android-11" groups="mediatek" />
     <project path="vendor/mediatek/demo-apps" name="rita/vendor/mediatek/demo-apps" remote="aiot" revision="mtk-android-11" groups="mediatek" />
     <project path="vendor/mediatek/prebuilts/egl" name="rita/vendor/mediatek/prebuilts/egl" remote="aiot" revision="mtk-android-11" groups="mediatek" clone-depth="1" />
-    <!-- TODO: migrate this once we have permission
-    <project path="vendor/onsemi" name="rita/vendor/onsemi" remote="aiot" revision="mtk-android-11" groups="mediatek" />
-    -->
-
     <project path="vendor/mediatek/tools/mbr" name="rita/vendor/mediatek/tools/mbr" remote="aiot" revision="mtk-android-11" groups="mediatek" />
     <project path="vendor/mediatek/wireless" name="rita/vendor/mediatek/wireless" remote="aiot" revision="mtk-android-11" groups="mediatek" />
 
@@ -50,8 +46,4 @@
         <linkfile src="lib3/yaml" dest="vendor/mediatek/tools/mbr/yaml" />
     </project>
     <project path="external/tinyhal" name="CirrusLogic/tinyhal.git" remote="github" revision="master" groups="mediatek" />
-
-    <!-- restricted projects that require NDA -->
-    <project path="vendor/mediatek/wireless-restricted" name="nda/wireless-firmware" remote="aiot" revision="main" groups="mediatek" />
-
 </manifest>
