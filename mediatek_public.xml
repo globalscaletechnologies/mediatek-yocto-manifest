@@ -30,6 +30,9 @@
     <!-- drm hardware composer: add support for mali based MTK platforms (i500) -->
     <remove-project name="platform/external/drm_hwcomposer" />
     <project path="external/drm_hwcomposer" name="rita/aosp/platform/external/drm_hwcomposer" remote="aiot" revision="mtk-android-11" groups="mediatek" />
+    <!-- drm: add support of APU -->
+    <remove-project name="platform/external/libdrm" />
+    <project path="external/libdrm" name="rita/aosp/platform/external/libdrm" remote="aiot" revision="mtk-android-11" groups="mediatek" />
     <!-- machine learning tests: use internal fork which adds additional tests -->
     <remove-project name="platform/test/mlts/benchmark" />
     <remove-project name="platform/test/mlts/models" />
