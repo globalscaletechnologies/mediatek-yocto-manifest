@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="aiot" fetch="ssh://git@gitlab.com/mediatek/aiot/" />
+
+    <project path="mt7668-wifi-mod" name="nda/mt7668-wifi-drv.git" remote="aiot" revision="main" groups="mediatek-restricted" />
+</manifest>
