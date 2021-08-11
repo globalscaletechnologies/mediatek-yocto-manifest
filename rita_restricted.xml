@@ -2,4 +2,5 @@
 <manifest>
     <include name="mediatek_public.xml" />
     <include name="mediatek_restricted.xml" />
+    <include name="cadence_restricted.xml" />
 </manifest>
