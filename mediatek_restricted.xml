@@ -3,9 +3,9 @@
     <remote name="aiot" fetch="ssh://git@gitlab.com/mediatek/aiot/" />
 
     <!-- vendor -->
-    <project path="vendor/mediatek/boots" name="nda/boots" remote="aiot" revision="main" groups="mediatek-restricted" />
-    <project path="vendor/mediatek/mdpd" name="nda/mdpd.git" remote="aiot" revision="main" groups="mediatek-restricted" />
-    <project path="vendor/mediatek/wifitest" name="nda/wifitest" remote="aiot" revision="main" groups="mediatek-restricted" />
-    <project path="vendor/mediatek/wireless-restricted" name="nda/wireless-firmware" remote="aiot" revision="main" groups="mediatek-restricted" />
-    <project path="vendor/onsemi" name="nda/onsemi-firmware" remote="aiot" revision="main" groups="mediatek-restricted" />
+    <project path="vendor/mediatek/boots" name="nda/boots" remote="aiot" revision="1d015dda3bcb3e5849cd8205f797696e08e8978c" groups="mediatek-restricted" />
+    <project path="vendor/mediatek/mdpd" name="nda/mdpd.git" remote="aiot" revision="eae93668aed5a6e0d9196ab209db33eba2fb0e92" groups="mediatek-restricted" />
+    <project path="vendor/mediatek/wifitest" name="nda/wifitest" remote="aiot" revision="fc1b6e9230639ecd37e75a2a4227234225495e16" groups="mediatek-restricted" />
+    <project path="vendor/mediatek/wireless-restricted" name="nda/wireless-firmware" remote="aiot" revision="8d8fa7a9bcb42742b310866c08db064bae8ee374" groups="mediatek-restricted" />
+    <project path="vendor/onsemi" name="nda/onsemi-firmware" remote="aiot" revision="f71af4ab0c3f9fcc13e5b7c0482f9ba7bdbc4561" groups="mediatek-restricted" />
 </manifest>

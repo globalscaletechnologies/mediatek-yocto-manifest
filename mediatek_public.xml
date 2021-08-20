@@ -6,38 +6,38 @@
     <remote  name="github" fetch="https://github.com/" />
 
     <!-- public bsp (common) projects -->
-    <project path="vendor/linaro/optee-os" name="bsp/optee-os" remote="aiot" revision="mtk-v3.14" groups="mediatek" />
-    <project path="external/libcamera" name="bsp/libcamera" remote="aiot" revision="mtk-aiot" groups="mediatek" />
+    <project path="vendor/linaro/optee-os" name="bsp/optee-os" remote="aiot" revision="80e2dcd817ff383480c0de91b75ead15d730c4c1" groups="mediatek" />
+    <project path="external/libcamera" name="bsp/libcamera" remote="aiot" revision="7799466db6b7ea447afe987a30fd7883c09c3d9b" groups="mediatek" />
 
     <!-- public rita projects -->
-    <project path="device/mediatek/board" name="rita/device/mediatek/board" remote="aiot" revision="mtk-android-11" groups="mediatek" />
-    <project path="device/mediatek/common" name="rita/device/mediatek/common" remote="aiot" revision="mtk-android-11" groups="mediatek" />
-    <project path="device/mediatek/kernel-binaries" name="rita/device/mediatek/kernel-binaries" remote="aiot" revision="mtk-android-11" groups="mediatek" clone-depth="1" />
-    <project path="hardware/linaro/kmgk" name="rita/hardware/linaro/kmgk" remote="aiot" revision="mtk-android-11" groups="mediatek" />
-    <project path="hardware/mediatek" name="rita/hardware/mediatek" remote="aiot" revision="mtk-android-11" groups="mediatek" />
-    <project path="vendor/arm/android-gralloc" name="rita/vendor/arm/android-gralloc" remote="aiot" revision="mtk-android-11" groups="mediatek" />
-    <project path="vendor/arm/android-nn-driver" name="rita/vendor/arm/android-nn-driver" remote="aiot" revision="mtk-android-11" groups="mediatek" />
-    <project path="vendor/arm/libopencl-stub" name="rita/vendor/arm/libopencl-stub" remote="aiot" revision="mtk-android-11" groups="mediatek" />
-    <project path="vendor/focaltech" name="rita/vendor/focaltech" remote="aiot" revision="mtk-android-11" groups="mediatek" />
-    <project path="vendor/ilitek" name="rita/vendor/ilitek" remote="aiot" revision="mtk-android-11" groups="mediatek" />
-    <project path="vendor/mediatek/build" name="rita/vendor/mediatek/build" remote="aiot" revision="mtk-android-11" groups="mediatek" />
-    <project path="vendor/mediatek/demo-apps" name="rita/vendor/mediatek/demo-apps" remote="aiot" revision="mtk-android-11" groups="mediatek" />
-    <project path="vendor/mediatek/prebuilts/egl" name="rita/vendor/mediatek/prebuilts/egl" remote="aiot" revision="mtk-android-11" groups="mediatek" clone-depth="1" />
-    <project path="vendor/mediatek/tools/mbr" name="rita/vendor/mediatek/tools/mbr" remote="aiot" revision="mtk-android-11" groups="mediatek" />
-    <project path="vendor/mediatek/wireless" name="rita/vendor/mediatek/wireless" remote="aiot" revision="mtk-android-11" groups="mediatek" />
+    <project path="device/mediatek/board" name="rita/device/mediatek/board" remote="aiot" revision="f3f673b31b86993c9c380e3914a328a66680558b" groups="mediatek" />
+    <project path="device/mediatek/common" name="rita/device/mediatek/common" remote="aiot" revision="26f3b510f271aca8fa78d703d689a203075f9289" groups="mediatek" />
+    <project path="device/mediatek/kernel-binaries" name="rita/device/mediatek/kernel-binaries" remote="aiot" revision="18bed79ab91c847f6b33b6306fc8bddc7a846f89" groups="mediatek" clone-depth="1" />
+    <project path="hardware/linaro/kmgk" name="rita/hardware/linaro/kmgk" remote="aiot" revision="aa44ec9b3ef1a9c116c07b30a948343f258b62e6" groups="mediatek" />
+    <project path="hardware/mediatek" name="rita/hardware/mediatek" remote="aiot" revision="a0f53a3060e5a994db183098c1546c64e481181a" groups="mediatek" />
+    <project path="vendor/arm/android-gralloc" name="rita/vendor/arm/android-gralloc" remote="aiot" revision="0bc6b65c74c997669b19e16b7b125a301607a7b2" groups="mediatek" />
+    <project path="vendor/arm/android-nn-driver" name="rita/vendor/arm/android-nn-driver" remote="aiot" revision="c43a65dcc707d92702207d77e5d5ecdbaf359b58" groups="mediatek" />
+    <project path="vendor/arm/libopencl-stub" name="rita/vendor/arm/libopencl-stub" remote="aiot" revision="94c20c63dda496f3f8a653b66209c9c2f2d20fc4" groups="mediatek" />
+    <project path="vendor/focaltech" name="rita/vendor/focaltech" remote="aiot" revision="c7108634f46aadbd61e8e6eba906657c9520987c" groups="mediatek" />
+    <project path="vendor/ilitek" name="rita/vendor/ilitek" remote="aiot" revision="528d94a0835beb5c479f344381647b7f8f8d3a41" groups="mediatek" />
+    <project path="vendor/mediatek/build" name="rita/vendor/mediatek/build" remote="aiot" revision="2bf1393a845dd547ab03b7440c37b6dc7871598c" groups="mediatek" />
+    <project path="vendor/mediatek/demo-apps" name="rita/vendor/mediatek/demo-apps" remote="aiot" revision="001b5b2646e7f95c6298aa589c1f9aee35e7c1f4" groups="mediatek" />
+    <project path="vendor/mediatek/prebuilts/egl" name="rita/vendor/mediatek/prebuilts/egl" remote="aiot"  revision="284f406c29c4954b2639485524922f1e6b75b12c" groups="mediatek" clone-depth="1" />
+    <project path="vendor/mediatek/tools/mbr" name="rita/vendor/mediatek/tools/mbr" remote="aiot" revision="cf68f66532a9299cd93d467103c1aae0bdc6305c" groups="mediatek" />
+    <project path="vendor/mediatek/wireless" name="rita/vendor/mediatek/wireless" remote="aiot" revision="4949edf4e42fed4b6dc0c7f6f862ceea73aa76a8" groups="mediatek" />
 
     <!-- public AOSP forks -->
     <!-- drm hardware composer: add support for mali based MTK platforms (i500) -->
     <remove-project name="platform/external/drm_hwcomposer" />
-    <project path="external/drm_hwcomposer" name="rita/aosp/platform/external/drm_hwcomposer" remote="aiot" revision="mtk-android-11" groups="mediatek" />
+    <project path="external/drm_hwcomposer" name="rita/aosp/platform/external/drm_hwcomposer" remote="aiot" revision="579e07da693fb248165d887318aa383f2eda8c5e" groups="mediatek" />
     <!-- drm: add support of APU -->
     <remove-project name="platform/external/libdrm" />
-    <project path="external/libdrm" name="rita/aosp/platform/external/libdrm" remote="aiot" revision="mtk-android-11" groups="mediatek" />
+    <project path="external/libdrm" name="rita/aosp/platform/external/libdrm" remote="aiot" revision="ed4ff5895fc2ad9bf31d5290fe96f147a7f8100c" groups="mediatek" />
     <!-- machine learning tests: use internal fork which adds additional tests -->
     <remove-project name="platform/test/mlts/benchmark" />
     <remove-project name="platform/test/mlts/models" />
-    <project path="test/mlts/benchmark" name="rita/aosp/platform/test/mlts/benchmark" remote="aiot" revision="mtk-android-11" groups="mediatek" />
-    <project path="test/mlts/models" name="rita/aosp/platform/test/mlts/models" remote="aiot" revision="mtk-android-11" groups="mediatek" />
+    <project path="test/mlts/benchmark" name="rita/aosp/platform/test/mlts/benchmark" remote="aiot" revision="8422e70533a030a0a94c45fe0a671ff7dc5a8258" groups="mediatek" />
+    <project path="test/mlts/models" name="rita/aosp/platform/test/mlts/models" remote="aiot" revision="ab1e7208eec3066bb6e53f3eb06b8f9e1f08366d" groups="mediatek" />
 
     <!-- public external projects -->
     <project path="external/oyaml" name="wimglenn/oyaml.git" remote="github" revision="6350d9de586f40014296b55427ccbc1d7f47269a" groups="mediatek" >
@@ -48,5 +48,5 @@
     <project path="external/pyyaml" name="yaml/pyyaml.git" remote="github" revision="0f64cbfa54b0b22dc7b776b7b98a7cd657e84d78" groups="mediatek" >
         <linkfile src="lib3/yaml" dest="vendor/mediatek/tools/mbr/yaml" />
     </project>
-    <project path="external/tinyhal" name="CirrusLogic/tinyhal.git" remote="github" revision="master" groups="mediatek" />
+    <project path="external/tinyhal" name="CirrusLogic/tinyhal.git" remote="github" revision="69d47887c13da461bf8400231a1c7f7290826037" groups="mediatek" />
 </manifest>
