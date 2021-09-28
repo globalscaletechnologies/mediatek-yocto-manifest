@@ -3,5 +3,6 @@
 	<include name="default.xml" />
 
 	<project name="meta-nn.git" path="src/meta-nn" remote="rity" />
-	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="yocto" />
+	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="yocto"
+				revision="bf3aff57d4e5a25cc6029d592184b0203a717bbe" />
 </manifest>
