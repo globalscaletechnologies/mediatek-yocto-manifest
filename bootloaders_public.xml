@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="aiot" fetch="ssh://git@gitlab.com/mediatek/aiot/" />
+
+    <project name="bsp/trusted-firmware-a.git" path="arm-trusted-firmware" remote="aiot" revision="mtk-v2.5" />
+    <project name="tools/build-bootloaders.git" path="build" remote="aiot" revision="main" />
+    <project name="bsp/optee-os.git" path="optee-os" remote="aiot" revision="mtk-v3.14" />
+    <project name="bsp/u-boot.git" path="u-boot" remote="aiot" revision="mtk-v2021.07" />
+</manifest>
