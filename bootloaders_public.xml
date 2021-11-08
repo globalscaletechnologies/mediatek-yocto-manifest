@@ -5,5 +5,5 @@
     <project name="bsp/trusted-firmware-a.git" path="arm-trusted-firmware" remote="aiot" revision="mtk-v2.5" />
     <project name="bsp/build-bootloaders.git" path="build" remote="aiot" revision="main" />
     <project name="bsp/optee-os.git" path="optee-os" remote="aiot" revision="mtk-v3.14" />
-    <project name="bsp/u-boot.git" path="u-boot" remote="aiot" revision="mtk-v2021.07" />
+    <project name="bsp/u-boot.git" path="u-boot" remote="aiot" revision="mtk-v2021.10" />
 </manifest>
