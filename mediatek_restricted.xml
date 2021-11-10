@@ -10,5 +10,4 @@
     <project path="vendor/mediatek/mdpd" name="nda/mdpd.git" remote="aiot" revision="main" groups="mediatek-restricted" />
     <project path="vendor/mediatek/wifitest" name="nda/wifitest" remote="aiot" revision="main" groups="mediatek-restricted" />
     <project path="vendor/mediatek/wireless-restricted" name="nda/wireless-firmware" remote="aiot" revision="main" groups="mediatek-restricted" />
-    <project path="vendor/onsemi" name="nda/onsemi-firmware" remote="aiot" revision="main" groups="mediatek-restricted" />
 </manifest>
