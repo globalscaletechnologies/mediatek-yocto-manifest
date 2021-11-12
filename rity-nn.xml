@@ -4,6 +4,6 @@
 
 	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="dunfell" groups="mediatek"/>
 	<project name="meta-nn-extra.git" path="src/meta-nn-extra" remote="rity" revision="dunfell" groups="mediatek"/>
-	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="rity" revision="eccbd6a2a59911b21dfd9623a06cebaca49247b6" groups="mediatek"/>
+	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="rity" revision="1134574fb0811fc2fc7e6daf83e97c7aac7165a3" groups="mediatek"/>
 	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="dunfell"/>
 </manifest>
