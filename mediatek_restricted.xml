@@ -3,7 +3,7 @@
     <remote name="aiot" fetch="ssh://git@gitlab.com/mediatek/aiot/" />
 
     <!-- device -->
-    <project path="device/mediatek/kernel-restricted-binaries" name="nda/rita/kernel-restricted-binaries" remote="aiot" revision="mtk-android-11" groups="mediatek-restricted" clone-depth="1" />
+    <project path="device/mediatek/kernel-restricted-binaries" name="nda/rita/kernel-restricted-binaries" remote="aiot" revision="mtk-android-12" groups="mediatek-restricted" clone-depth="1" />
 
     <!-- vendor -->
     <project path="vendor/mediatek/boots" name="nda/boots" remote="aiot" revision="main" groups="mediatek-restricted" />
