@@ -7,7 +7,7 @@
 
     <!-- public bsp (common) projects -->
     <project path="vendor/linaro/optee-os" name="bsp/optee-os" remote="aiot" revision="mtk-v3.14" groups="mediatek" />
-    <project path="external/libcamera" name="bsp/libcamera" remote="aiot" revision="mtk-aiot" groups="mediatek" />
+    <project path="external/libcamera" name="bsp/libcamera" remote="aiot" revision="mtk-android-12" groups="mediatek" />
 
     <!-- public rita projects -->
     <project path="device/mediatek/board" name="rita/device/mediatek/board" remote="aiot" revision="mtk-android-12" groups="mediatek" />
@@ -16,7 +16,6 @@
     <project path="hardware/linaro/kmgk" name="rita/hardware/linaro/kmgk" remote="aiot" revision="mtk-android-12" groups="mediatek" />
     <project path="hardware/mediatek" name="rita/hardware/mediatek" remote="aiot" revision="mtk-android-12" groups="mediatek" />
     <project path="vendor/arm/android-gralloc" name="rita/vendor/arm/android-gralloc" remote="aiot" revision="mtk-android-12" groups="mediatek" />
-    <project path="vendor/arm/android-nn-driver" name="rita/vendor/arm/android-nn-driver" remote="aiot" revision="mtk-android-12" groups="mediatek" />
     <project path="vendor/arm/libopencl-stub" name="rita/vendor/arm/libopencl-stub" remote="aiot" revision="mtk-android-12" groups="mediatek" />
     <project path="vendor/focaltech" name="rita/vendor/focaltech" remote="aiot" revision="mtk-android-12" groups="mediatek" />
     <project path="vendor/ilitek" name="rita/vendor/ilitek" remote="aiot" revision="mtk-android-12" groups="mediatek" />
