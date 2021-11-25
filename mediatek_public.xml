@@ -43,7 +43,7 @@
     <project path="external/oyaml" name="wimglenn/oyaml.git" remote="github" revision="6350d9de586f40014296b55427ccbc1d7f47269a" groups="mediatek" >
         <linkfile src="oyaml.py" dest="vendor/mediatek/tools/mbr/oyaml.py" />
     </project>
-    <project path="external/onsemi" name="ONSemiconductor/ap1302_binaries.git" remote="github" revision="c07907c3ee72db596ef4078b162678a11585d174" groups="mediatek" />
+    <project path="external/onsemi" name="ONSemiconductor/ap1302_binaries.git" remote="github" revision="86f5a48d85bb6028afaac4428eb0a9acb8c143a0" groups="mediatek" />
     <project path="external/optee_client" name="OP-TEE/optee_client.git" remote="github" revision="705df459d08712406283c890f576cd371815eafc" groups="mediatek" />
     <project path="external/optee_test" name="OP-TEE/optee_test.git" remote="github" revision="9e5867b788cc4d11c0526001915a9d7c487b5b0c" groups="mediatek" />
     <project path="external/pyyaml" name="yaml/pyyaml.git" remote="github" revision="0f64cbfa54b0b22dc7b776b7b98a7cd657e84d78" groups="mediatek" >
