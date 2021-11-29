@@ -6,5 +6,5 @@
     <project name="bsp/build-bootloaders.git" path="build" remote="aiot" revision="main" />
     <project name="bsp/optee-os.git" path="optee-os" remote="aiot" revision="mtk-v3.14" />
     <project name="bsp/u-boot.git" path="u-boot" remote="aiot" revision="mtk-v2021.10" />
-    <project name="rity/libbase-prebuilt.git" path="libbase-prebuilts" remote="aiot" revision="main" />
+    <project name="bsp/libbase-prebuilt.git" path="libbase-prebuilts" remote="aiot" revision="main" />
 </manifest>
