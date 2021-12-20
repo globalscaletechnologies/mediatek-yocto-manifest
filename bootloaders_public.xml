@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="aiot" fetch="ssh://git@gitlab.com/mediatek/aiot/" />
+
+    <project name="bsp/trusted-firmware-a.git" path="arm-trusted-firmware" remote="aiot" revision="refs/tags/rita-v21.3-android-11" />
+    <project name="bsp/build-bootloaders.git" path="build" remote="aiot" revision="refs/tags/rita-v21.3-android-11" />
+    <project name="bsp/optee-os.git" path="optee-os" remote="aiot" revision="refs/tags/rita-v21.3-android-11" />
+    <project name="bsp/u-boot.git" path="u-boot" remote="aiot" revision="refs/tags/rita-v21.3-android-11" />
+    <project name="bsp/libbase-prebuilt.git" path="libbase-prebuilts" remote="aiot" revision="refs/tags/rita-v21.3-android-11" />
+</manifest>
