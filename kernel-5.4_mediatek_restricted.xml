@@ -9,4 +9,5 @@
          * WLAN_CHIP_ID=MT7668
     -->
     <project path="mt7663-wifi-mod" name="nda/mt7668-wifi-drv.git" remote="aiot" revision="alps-release-r0.mp5-aiot" groups="mediatek-restricted" />
+    <project path="mt76xx-bt-mod" name="nda/mt76xx-bt-drv.git" remote="aiot" revision="aiot" groups="mediatek-restricted" />
 </manifest>
