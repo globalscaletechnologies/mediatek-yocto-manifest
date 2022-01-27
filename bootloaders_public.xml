@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="aiot" fetch="ssh://git@gitlab.com/mediatek/aiot/" />
+    <remote name="github" fetch="https://github.com/" />
 
     <project name="bsp/trusted-firmware-a.git" path="arm-trusted-firmware" remote="aiot" revision="mtk-v2.5" />
     <project name="bsp/build-bootloaders.git" path="build" remote="aiot" revision="main" />
     <project name="bsp/optee-os.git" path="optee-os" remote="aiot" revision="mtk-v3.15" />
     <project name="bsp/u-boot.git" path="u-boot" remote="aiot" revision="mtk-v2021.10" />
     <project name="bsp/libbase-prebuilt.git" path="libbase-prebuilts" remote="aiot" revision="main" />
+    <project name="ARMmbed/mbedtls.git" path="mbedtls" remote="github" revision="refs/tags/mbedtls-2.26.0" />
 </manifest>
