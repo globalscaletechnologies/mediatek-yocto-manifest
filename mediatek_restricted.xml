@@ -9,5 +9,5 @@
     <project path="vendor/mediatek/boots" name="nda/boots" remote="aiot" revision="refs/tags/rita-v21.3-android-11" groups="mediatek-restricted" />
     <project path="vendor/mediatek/mdpd" name="nda/mdpd.git" remote="aiot" revision="refs/tags/rita-v21.3-android-11" groups="mediatek-restricted" />
     <project path="vendor/mediatek/wifitest" name="nda/wifitest" remote="aiot" revision="refs/tags/rita-v21.3-android-11" groups="mediatek-restricted" />
-    <project path="vendor/mediatek/wireless-restricted" name="nda/wireless-firmware" remote="refs/tags/rita-v21.3-android-11" revision="main" groups="mediatek-restricted" />
+    <project path="vendor/mediatek/wireless-restricted" name="nda/wireless-firmware" remote="aiot" revision="refs/tags/rita-v21.3-android-11" groups="mediatek-restricted" />
 </manifest>
