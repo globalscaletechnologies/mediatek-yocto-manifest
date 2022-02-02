@@ -50,5 +50,6 @@
         <linkfile src="lib3/yaml" dest="vendor/mediatek/tools/mbr/yaml" />
     </project>
     <project path="external/tinyhal" name="CirrusLogic/tinyhal.git" remote="github" revision="69d47887c13da461bf8400231a1c7f7290826037" groups="mediatek" />
+    <!-- android lights hal -->
     <project path="external/android-lights-hal" name="SoMainline/android-lights-hal.git" remote="github" revision="61a8fe2a5dc334c5ed661dfcf9cf4a58def5c25f" groups="mediatek" />
 </manifest>
