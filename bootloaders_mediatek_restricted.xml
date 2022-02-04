@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="aiot" fetch="ssh://git@gitlab.com/mediatek/aiot/" />
-    <project name="nda/libdram.git" path="libdram" remote="aiot" revision="refs/tags/rita-v21.3-android-11" />
-    <project name="nda/lk.git" path="lk" remote="aiot" revision="refs/tags/rita-v21.3-android-11" />
+    <project name="nda/libdram.git" path="libdram" remote="aiot" revision="refs/tags/rita-v21.3.1-android-11" />
+    <project name="nda/lk.git" path="lk" remote="aiot" revision="refs/tags/rita-v21.3.1-android-11" />
 </manifest>

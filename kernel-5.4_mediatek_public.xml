@@ -18,5 +18,5 @@
     <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="kernel" />
 
     <!-- mediatek kernel -->
-    <project path="src" name="bsp/linux" remote="aiot" revision="refs/tags/rita-v21.3-android-11" groups="mediatek" />
+    <project path="src" name="bsp/linux" remote="aiot" revision="refs/tags/rita-v21.3.1-android-11" groups="mediatek" />
 </manifest>
