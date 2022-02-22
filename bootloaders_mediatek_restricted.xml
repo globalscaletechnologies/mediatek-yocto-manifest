@@ -3,4 +3,5 @@
     <remote name="aiot" fetch="ssh://git@gitlab.com/mediatek/aiot/" />
     <project name="nda/libdram.git" path="libdram" remote="aiot" revision="main" />
     <project name="nda/lk.git" path="lk" remote="aiot" revision="main" />
+    <project name="nda/mtk-secure-boot-tools.git" path="mtk-secure-boot-tools" remote="aiot" revision="main" />
 </manifest>
