@@ -9,4 +9,9 @@
     <project name="bsp/u-boot.git" path="u-boot" remote="aiot" revision="mtk-v2021.10" />
     <project name="bsp/libbase-prebuilt.git" path="libbase-prebuilts" remote="aiot" revision="main" />
     <project name="ARMmbed/mbedtls.git" path="mbedtls" remote="github" revision="refs/tags/mbedtls-2.26.0" />
+
+    <!-- OPTEE: Trusted Applications -->
+    <project name="bsp/optee-otp" path="optee-ta/optee-otp" remote="aiot" revision="main" />
+    <project name="rita/hardware/linaro/kmgk" path="optee-ta/kmgk" remote="aiot" revision="mtk-android-12" />
+    <project name="OP-TEE/optee_test.git" path="optee-ta/optee_test" remote="github" revision="f88f69eb27beda52998de09cd89a7ee422da00d9" />
 </manifest>
