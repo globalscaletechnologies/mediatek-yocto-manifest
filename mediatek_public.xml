@@ -38,6 +38,7 @@
     <remove-project name="platform/test/mlts/models" />
     <project path="test/mlts/benchmark" name="rita/aosp/platform/test/mlts/benchmark" remote="aiot" revision="mtk-android-12" groups="mediatek" />
     <project path="test/mlts/models" name="rita/aosp/platform/test/mlts/models" remote="aiot" revision="mtk-android-12" groups="mediatek" />
+    <project path="external/libyaml" name="rita/external/libyaml" remote="aiot" revision="mtk-android-12" groups="mediatek" />
 
     <!-- public external projects -->
     <project path="external/oyaml" name="wimglenn/oyaml.git" remote="github" revision="6350d9de586f40014296b55427ccbc1d7f47269a" groups="mediatek" >
