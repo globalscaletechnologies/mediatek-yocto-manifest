@@ -7,7 +7,7 @@
 
     <!-- public bsp (common) projects -->
     <project path="vendor/linaro/optee-os" name="bsp/optee-os" remote="aiot" revision="mtk-v3.15" groups="mediatek" />
-    <project path="vendor/linaro/optee_client" name="bsp/optee_client" remote="aiot" revision="mtk-android-12" groups="mediatek" />
+    <project path="vendor/linaro/optee_client" name="bsp/optee_client" remote="aiot" revision="mtk-v3.15" groups="mediatek" />
     <project path="external/libcamera" name="bsp/libcamera" remote="aiot" revision="mtk-android-12" groups="mediatek" />
 
     <!-- public rita projects -->
