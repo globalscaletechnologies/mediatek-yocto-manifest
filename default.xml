@@ -15,4 +15,5 @@
 	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="dunfell"/>
 	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" revision="master" />
 	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="dunfell"/>
+	<project name="ros/meta-ros.git" path="src/meta-ros" remote="github" revision="dunfell"/>
 </manifest>
