@@ -18,4 +18,5 @@
 	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="rity" />
 	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" />
 	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" />
+	<project name="ros/meta-ros.git" path="src/meta-ros" remote="github"/>
 </manifest>
