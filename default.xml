@@ -19,4 +19,5 @@
 		revision="50b0e1036abbb485a74e82ac2d027c4db6deccb9" />
 	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" />
 	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github"/>
+	<project name="ros/meta-ros.git" path="src/meta-ros" remote="github"/>
 </manifest>
