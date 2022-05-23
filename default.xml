@@ -15,7 +15,7 @@
 	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" />
 	<project name="meta-openembedded" path="src/meta-openembedded"
 				remote="oe" />
-	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="rity" />
+	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="yocto" />
 	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" />
 	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" />
 </manifest>
