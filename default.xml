@@ -9,7 +9,7 @@
 
 	<project name="meta-rity.git" path="src/meta-rity" remote="rity" />
 	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp"
-				remote="rity" />
+				remote="rity" revision="8dd163520c8d1ecc5c7f063fb26e191292424b24" />
 	<project name="meta-nn.git" path="src/meta-nn" remote="rity" />
 	<project name="poky.git" path="src/poky" remote="yocto" />
 	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" />
