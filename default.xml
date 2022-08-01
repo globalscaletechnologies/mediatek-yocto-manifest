@@ -1,18 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-	<remote name="rity" fetch="ssh://git@gitlab.com/mediatek/aiot/rity" />
+	<remote name="rity" fetch="https://gitlab.com/mediatek/aiot/rity" />
 	<remote name="yocto" fetch="git://git.yoctoproject.org" />
 	<remote name="oe" fetch="git://git.openembedded.org" />
 	<remote name="github" fetch="https://github.com/" />
 
 
-	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-dunfell-v22.0.1" groups="mediatek"/>
-	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-dunfell-v22.0.1" groups="mediatek"/>
-	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-dunfell-v22.0.1" groups="mediatek"/>
-	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="rity" revision="refs/tags/rity-dunfell-v22.0.1" groups="mediatek"/>
-	<project name="poky.git" path="src/poky" remote="yocto" revision="refs/tags/yocto-3.1.15"/>
-	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="d21ded082c27959c8d617fd18da60b236d2ec62b"/>
-	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="0722ff6f021df91542b5efa1ff5b5f6269f66add"/>
-	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" revision="4837db1d965c51e4a2c5971e6a126c896e5b401a" />
-	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="3bb001d3f364bbf6588fed04b9ee2c7e74a0beba"/>
+	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-dunfell-v22.1" groups="mediatek" />
+	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-dunfell-v22.1" groups="mediatek" />
+	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-dunfell-v22.1" groups="mediatek" />
+	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="rity" revision="refs/tags/rity-dunfell-v22.1" groups="mediatek" />
+	<project name="poky.git" path="src/poky" remote="yocto" revision="02867c90395db2ebfbcaed3d0d813b889978888c" />
+	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="5c09684863be8e803e3e987a5ce4940721c3f39a" />
+	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="deee226017877d51188e0a46f9e6b93c10ffbb34" />
+	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" revision="5ef3a0ffd3324937252790266e2b2e64d33ef34f" />
+	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="3bb001d3f364bbf6588fed04b9ee2c7e74a0beba" />
+	<project name="ros/meta-ros.git" path="src/meta-ros" remote="github" revision="cd2e0d0625385ca821aa5129d20805640ac80734" />
 </manifest>
