@@ -5,7 +5,7 @@
 
     <project name="bsp/trusted-firmware-a.git" path="arm-trusted-firmware" remote="aiot" revision="mtk-v2.6" />
     <project name="bsp/build-bootloaders.git" path="build" remote="aiot" revision="main" />
-    <project name="bsp/optee-os.git" path="optee-os" remote="aiot" revision="mtk-v3.16" />
+    <project name="bsp/optee-os.git" path="optee-os" remote="aiot" revision="mtk-v3.18" />
     <project name="bsp/u-boot.git" path="u-boot" remote="aiot" revision="mtk-v2022.04" />
     <project name="bsp/libbase-prebuilt.git" path="libbase-prebuilts" remote="aiot" revision="main" />
     <project name="ARMmbed/mbedtls.git" path="mbedtls" remote="github" revision="refs/tags/mbedtls-2.26.0" />
@@ -13,5 +13,5 @@
     <!-- OPTEE: Trusted Applications -->
     <project name="bsp/optee-otp" path="optee-ta/optee-otp" remote="aiot" revision="main" />
     <project name="rita/hardware/linaro/kmgk" path="optee-ta/kmgk" remote="aiot" revision="mtk-android-12" />
-    <project name="OP-TEE/optee_test.git" path="optee-ta/optee_test" remote="github" revision="refs/tags/3.16.0" />
+    <project name="OP-TEE/optee_test.git" path="optee-ta/optee_test" remote="github" revision="d9d269e8012809c919000e7ca775fffbfd958e7c" />
 </manifest>
