@@ -9,6 +9,7 @@
 
 	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-kirkstone-v22.1" />
 	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-kirkstone-v22.1" />
+	<project name="meta-mediatek-tsn.git" path="src/meta-mediatek-tsn" remote="rity" />
 	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-kirkstone-v22.1" />
 	<project name="poky.git" path="src/poky" remote="yocto" revision="a5ea426b1da472fc8549459fff3c1b8c6e02f4b5" />
 	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="af928569b421431347c84f5941cee7aaa9f0ac74" />
