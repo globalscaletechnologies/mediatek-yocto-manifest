@@ -11,6 +11,7 @@
 	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp"
 				remote="rity" />
 	<project name="meta-mediatek-tsn.git" path="src/meta-mediatek-tsn" remote="rity" />
+	<project name="meta-mediatek-demo.git" path="src/meta-mediatek-demo" remote="rity" revision="main" />
 	<project name="meta-nn.git" path="src/meta-nn" remote="rity" />
 	<project name="meta-stress-test.git" path="src/meta-stress-test" remote="rity" />
 	<project name="poky.git" path="src/poky" remote="yocto" />
