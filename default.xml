@@ -5,7 +5,7 @@
 	<remote name="oe" fetch="https://git.openembedded.org" />
 	<remote name="github" fetch="https://github.com/" />
 
-	<default revision="kirkstone" />
+	<default revision="scarthgap" />
 
 	<project name="meta-rity.git" path="src/meta-rity" remote="rity" />
 	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp"
