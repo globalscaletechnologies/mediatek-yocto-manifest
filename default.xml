@@ -4,19 +4,24 @@
 	<remote name="yocto" fetch="https://git.yoctoproject.org" />
 	<remote name="oe" fetch="https://git.openembedded.org" />
 	<remote name="github" fetch="https://github.com/" />
+	<remote name="collabora" fetch="https://gitlab.collabora.com/mediatek/aiot/rity" />
+	<remote name="asix" fetch="https://gitlab.com/asix_official/ax88179_series/mtk_genio/yocto/rity/" />
 
 	<default revision="scarthgap" />
 
-	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-scarthgap-v25.0" />
-	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-scarthgap-v25.0" />
-	<project name="meta-mediatek-tsn.git" path="src/meta-mediatek-tsn" remote="rity" revision="refs/tags/rity-scarthgap-v25.0" />
-	<project name="meta-mediatek-demo.git" path="src/meta-mediatek-demo" remote="rity" revision="refs/tags/rity-scarthgap-v25.0" />
-	<project name="meta-mediatek-bluedroid.git" path="src/meta-mediatek-bluedroid" remote="rity" revision="refs/tags/rity-scarthgap-v25.0" />
-	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-scarthgap-v25.0" />
-	<project name="poky.git" path="src/poky" remote="yocto" revision="78626a6f1861361bbd78a411cb27b093e34b466b" />
-	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="f3640941c600d03ea53ce5b9254f0fead18f8bc0" />
-	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="67ad83dd7c2485dae0c90eac345007af6195b84d" />
-	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="yocto" revision="f5f218c1ac055ef449ce779392ef426936d1bd2b" />
+	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-scarthgap-v25.1" />
+	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-scarthgap-v25.1" />
+	<project name="meta-mediatek-tsn.git" path="src/meta-mediatek-tsn" remote="rity" revision="refs/tags/rity-scarthgap-v25.1" />
+	<project name="meta-mediatek-demo.git" path="src/meta-mediatek-demo" remote="rity" revision="refs/tags/rity-scarthgap-v25.1" />
+	<project name="meta-mediatek-bluedroid.git" path="src/meta-mediatek-bluedroid" remote="rity" revision="refs/tags/rity-scarthgap-v25.1" />
+	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-scarthgap-v25.1" />
+	<project name="poky.git" path="src/poky" remote="yocto" revision="e3ce89324da1e33c17c9180ef846f41d92616254" />
+	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="0f1e7bf92c89759f0ab74cfa5be4ee47b092ad46" />
+	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="e621da947048842109db1b4fd3917a02e0501aa2" />
+	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="yocto" revision="eeee54cfa3c51c1fd99604a0d5f173096bdcf1da" />
 	<project name="meta-security" path="src/meta-security" remote="yocto" revision="bc865c5276c2ab4031229916e8d7c20148dfbac3" />
-	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="eaa08939eaec9f620b14742ff3ac568553683034" />
+	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="b4532c75af7b1957b10cc4d5377fc4cfa0b1cbf6" />
+	<project name="meta-lts-mixins.git" path="src/meta-lts-mixins" remote="yocto" revision="96deb45139df027473faf0938fe006d33c45c375" />
+	<project name="meta-browser.git" path="src/meta-browser" remote="collabora" revision="e0d522af1130852159b75847649381ad9f11efbc" />
+	<project name="meta-asix" path="src/meta-asix" remote="asix" revision="d2551230c1fc4a0bebd2d2f0b5e3e9a0aee678e2" />
 </manifest>
