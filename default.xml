@@ -6,6 +6,7 @@
 	<remote name="github" fetch="https://github.com/" />
 	<remote name="collabora" fetch="https://gitlab.collabora.com/mediatek/aiot/rity" />
 	<remote name="asix" fetch="https://gitlab.com/asix_official/ax88179_series/mtk_genio/yocto/rity/" />
+	<remote name="globalscale" fetch="https://gitlab.com/globalscaletechnologies/" />
 
 	<default revision="scarthgap" />
 
@@ -24,4 +25,5 @@
 	<project name="meta-lts-mixins.git" path="src/meta-lts-mixins" remote="yocto" revision="96deb45139df027473faf0938fe006d33c45c375" />
 	<project name="meta-browser.git" path="src/meta-browser" remote="collabora" revision="f50e7319de63d6c36810cfbfac417e18233d430e" />
 	<project name="meta-asix" path="src/meta-asix" remote="asix" revision="d2551230c1fc4a0bebd2d2f0b5e3e9a0aee678e2" />
+	<project name="globalscaletechnologies/meta-globalscale-bsp.git" path="src/meta-globalscale-bsp" remote="github" revision="rity-scarthgap-v25.1.1" />
 </manifest>
